@@ -3,8 +3,16 @@
 
 #include <stdint.h>
 
-void CRC8_Init(uint8_t _CRC7Poly);
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-uint8_t CRC8_Get(uint8_t _message[], uint8_t _length);
+    void CRC8_Init(uint8_t _CRC7Poly);
+
+    uint8_t CRC8_Get(uint8_t _message[], uint8_t _length);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // !CRC8_SLOW_H
