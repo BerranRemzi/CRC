@@ -1,5 +1,5 @@
-#ifndef CRC8_FAST_
-#define CRC8_FAST_
+#ifndef CRC8_FAST_H
+#define CRC8_FAST_H
 
 #include <stdint.h>
 
@@ -15,4 +15,4 @@ uint8_t CRC8_Get(uint8_t _message[], uint8_t _length);
 }
 #endif
 
-#endif // !CRC8_FAST_
+#endif // !CRC8_FAST_H
