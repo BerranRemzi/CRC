@@ -1,0 +1,2 @@
+# CRC
+ CRC8, CRC16 and CRC32
